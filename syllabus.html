@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TSLPRB Police SI — Syllabus Checklist</title>
+<style>
+:root{--bg:#f5f7fb;--card:#fff;--text:#172033;--muted:#657085;--accent:#2563eb;--line:#e5e9f0;--done:#16a34a}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+.container{max-width:1100px;margin:auto;padding:28px 18px 60px}
+.hero{background:linear-gradient(135deg,#172554,#2563eb);color:#fff;border-radius:22px;padding:30px;box-shadow:0 12px 35px #1e3a8a22}
+.hero h1{margin:0 0 8px;font-size:clamp(28px,4vw,42px)} .hero p{margin:0;color:#dbeafe}
+.stats{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px} .stat{background:#ffffff18;border:1px solid #ffffff25;padding:10px 14px;border-radius:12px}
+.toolbar{position:sticky;top:10px;z-index:5;background:#ffffffee;backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:16px;padding:12px;margin:18px 0;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.progress{flex:1;min-width:180px} .progressbar{height:9px;background:#e8edf5;border-radius:99px;overflow:hidden} .bar{height:100%;width:0;background:var(--accent);transition:.2s}
+button{border:1px solid var(--line);background:#fff;border-radius:10px;padding:9px 12px;cursor:pointer;font-weight:600;color:var(--text)} button:hover{border-color:#b8c4d8}
+.section{background:var(--card);border:1px solid var(--line);border-radius:18px;margin:14px 0;overflow:hidden;box-shadow:0 4px 16px #17203308}
+.section-head{display:flex;justify-content:space-between;gap:15px;align-items:center;padding:18px 20px;border-bottom:1px solid var(--line)} .section-head h2{font-size:20px;margin:0}
+.content{padding:18px 20px} .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:8px}
+.item{display:flex;gap:10px;align-items:flex-start;padding:10px;border:1px solid transparent;border-radius:10px;cursor:pointer}
+.item:hover{background:#f8fafc;border-color:var(--line)} input{margin-top:3px;accent-color:var(--accent);width:17px;height:17px;flex:0 0 auto}
+.item input:checked + span{text-decoration:line-through;color:var(--muted)} .subtopic{margin-bottom:22px} .subtopic:last-child{margin-bottom:0} .subtopic h3{margin:0 0 10px;font-size:16px;color:#334155}
+.note{color:var(--muted);font-size:14px;margin-top:18px;line-height:1.6}
+@media(max-width:600px){.container{padding:16px 10px 40px}.hero{padding:22px 18px}.content,.section-head{padding:15px}}
+.topnav{display:flex;justify-content:flex-end;max-width:1100px;margin:0 auto 12px;padding:10px 18px 0}.topnav a{display:inline-flex;align-items:center;text-decoration:none;background:#fff;color:var(--accent);border:1px solid var(--line);border-radius:10px;padding:9px 12px;font-weight:700}.topnav a:hover{border-color:#b8c4d8;background:#f8fafc}
+</style>
+</head>
+<body>
+<div class="topnav"><a href="index.html">← Mock Exams</a></div>
+<div class="container">
+<header class="hero">
+<h1>TSLPRB Police SI Syllabus</h1>
+<p>Interactive study checklist based on the supplied syllabus material.</p>
+<div class="stats">
+<div class="stat"><b id="count">0</b> completed</div>
+<div class="stat"><b id="total">0</b> total topics</div>
+<div class="stat"><b id="pct">0%</b> progress</div>
+</div>
+</header>
+<div class="toolbar">
+<div class="progress"><div class="progressbar"><div class="bar" id="bar"></div></div></div>
+<button id="all">Mark all</button><button id="clear">Clear all</button>
+</div>
+<section class="section"><div class="section-head"><h2>Selection Process</h2><button class="toggle">Collapse</button></div><div class="content"><div class="grid"><label class="item"><input type="checkbox"><span>Prelims (Objective)</span></label><label class="item"><input type="checkbox"><span>Mains (Written test)</span></label><label class="item"><input type="checkbox"><span>Physical Measurement Test</span></label></div></div></section><section class="section"><div class="section-head"><h2>Prelims — Part A: Arithmetic &amp; Test of Reasoning / Mental Ability</h2><button class="toggle">Collapse</button></div><div class="content"><div class="subtopic"><h3>Quantitative Aptitude</h3><div class="grid"><label class="item"><input type="checkbox"><span>Cone</span></label><label class="item"><input type="checkbox"><span>Relative velocities</span></label><label class="item"><input type="checkbox"><span>Triangles</span></label><label class="item"><input type="checkbox"><span>Rational numbers</span></label><label class="item"><input type="checkbox"><span>Irrational numbers</span></label><label class="item"><input type="checkbox"><span>Numerology</span></label><label class="item"><input type="checkbox"><span>Algebra</span></label><label class="item"><input type="checkbox"><span>Number system</span></label><label class="item"><input type="checkbox"><span>Measurements</span></label><label class="item"><input type="checkbox"><span>Compound interest</span></label><label class="item"><input type="checkbox"><span>Circle or pictures</span></label><label class="item"><input type="checkbox"><span>Probability</span></label><label class="item"><input type="checkbox"><span>Percentages</span></label><label class="item"><input type="checkbox"><span>Alligation &amp; Mixtures</span></label><label class="item"><input type="checkbox"><span>Geometry</span></label><label class="item"><input type="checkbox"><span>Volumes</span></label><label class="item"><input type="checkbox"><span>Simple and Compound Interest</span></label><label class="item"><input type="checkbox"><span>Profit and loss</span></label><label class="item"><input type="checkbox"><span>Basics</span></label><label class="item"><input type="checkbox"><span>Time work</span></label><label class="item"><input type="checkbox"><span>Average</span></label><label class="item"><input type="checkbox"><span>Ratio &amp; Proportion</span></label><label class="item"><input type="checkbox"><span>Work Wages</span></label><label class="item"><input type="checkbox"><span>Ages</span></label><label class="item"><input type="checkbox"><span>Time &amp; distance</span></label><label class="item"><input type="checkbox"><span>Clocks &amp; calendars</span></label><label class="item"><input type="checkbox"><span>Partnership, menstruation, etc.</span></label></div></div><div class="subtopic"><h3>Reasoning &amp; Mental Ability</h3><div class="grid"><label class="item"><input type="checkbox"><span>Analogies</span></label><label class="item"><input type="checkbox"><span>Similarities and differences</span></label><label class="item"><input type="checkbox"><span>Spatial visualization, spatial orientation</span></label><label class="item"><input type="checkbox"><span>Problem-solving</span></label><label class="item"><input type="checkbox"><span>Analysis</span></label><label class="item"><input type="checkbox"><span>Judgment</span></label><label class="item"><input type="checkbox"><span>Decision making</span></label><label class="item"><input type="checkbox"><span>Visual memory</span></label><label class="item"><input type="checkbox"><span>Alpha-Numeric Sequence Puzzle</span></label><label class="item"><input type="checkbox"><span>Mirror Images</span></label><label class="item"><input type="checkbox"><span>Dice</span></label><label class="item"><input type="checkbox"><span>Coding – Decoding</span></label><label class="item"><input type="checkbox"><span>Logical Venn diagrams</span></label><label class="item"><input type="checkbox"><span>Directions- Distance</span></label><label class="item"><input type="checkbox"><span>Missing numbers</span></label><label class="item"><input type="checkbox"><span>Substitution method</span></label></div></div></div></section><section class="section"><div class="section-head"><h2>Prelims — Part B: General Studies</h2><button class="toggle">Collapse</button></div><div class="content"><div class="grid"><label class="item"><input type="checkbox"><span>General Science — contemporary developments in science and technology and their implications; everyday observation and experience; environmental protection issues</span></label><label class="item"><input type="checkbox"><span>Current events of national and international importance</span></label><label class="item"><input type="checkbox"><span>History of India — social, economic, cultural, and political aspects; Indian National Movement</span></label><label class="item"><input type="checkbox"><span>Principles of Geography and Geography of India</span></label><label class="item"><input type="checkbox"><span>Indian Polity and Economy — political system, rural development, planning, and economic reforms in India</span></label><label class="item"><input type="checkbox"><span>Personality test — Ethics, sensitivity to gender and weaker sections, social awareness, and Emotional Intelligence</span></label><label class="item"><input type="checkbox"><span>Telangana Movement and State Formation — Idea of Telangana (1948–1970), Mobilization phase (1971–1990), towards formation of Telangana State (1991–2014)</span></label></div></div></section><section class="section"><div class="section-head"><h2>English — Only for SCTSI (IT&amp;CO), SCT SI (PTO), and SCT ASI (FPB)</h2><button class="toggle">Collapse</button></div><div class="content"><div class="grid"><label class="item"><input type="checkbox"><span>Subject-Verb Agreement</span></label><label class="item"><input type="checkbox"><span>Para Jumbles</span></label><label class="item"><input type="checkbox"><span>Adverb</span></label><label class="item"><input type="checkbox"><span>Antonyms</span></label><label class="item"><input type="checkbox"><span>Fill in the Blanks</span></label><label class="item"><input type="checkbox"><span>Meanings</span></label><label class="item"><input type="checkbox"><span>Synonyms</span></label><label class="item"><input type="checkbox"><span>Reading Comprehension</span></label><label class="item"><input type="checkbox"><span>Grammar</span></label><label class="item"><input type="checkbox"><span>Adjectives</span></label><label class="item"><input type="checkbox"><span>Sentence Corrections</span></label><label class="item"><input type="checkbox"><span>Error Spotting / Phrase Replacement</span></label><label class="item"><input type="checkbox"><span>Phrase Replacement</span></label><label class="item"><input type="checkbox"><span>Verb</span></label><label class="item"><input type="checkbox"><span>Cloze Test</span></label><label class="item"><input type="checkbox"><span>Missing Verbs</span></label><label class="item"><input type="checkbox"><span>Word Formations</span></label><label class="item"><input type="checkbox"><span>Unseen Passages</span></label><label class="item"><input type="checkbox"><span>Sentence Rearrangement</span></label><label class="item"><input type="checkbox"><span>Articles</span></label><label class="item"><input type="checkbox"><span>Idioms &amp; Phrases</span></label></div></div></section><section class="section"><div class="section-head"><h2>Mains — Paper I: English</h2><button class="toggle">Collapse</button></div><div class="content"><div class="subtopic"><h3>Part A — Objective</h3><div class="grid"><label class="item"><input type="checkbox"><span>Usage</span></label><label class="item"><input type="checkbox"><span>Vocabulary</span></label><label class="item"><input type="checkbox"><span>Grammar</span></label><label class="item"><input type="checkbox"><span>Comprehension and other language skills in MCQ format</span></label></div></div><div class="subtopic"><h3>Part B — Descriptive</h3><div class="grid"><label class="item"><input type="checkbox"><span>Precis writing</span></label><label class="item"><input type="checkbox"><span>Letters / Reports</span></label><label class="item"><input type="checkbox"><span>Essay</span></label><label class="item"><input type="checkbox"><span>Topical Paragraphs</span></label><label class="item"><input type="checkbox"><span>Reading Comprehension</span></label></div></div></div></section><section class="section"><div class="section-head"><h2>Mains — Paper II: Telugu / Urdu</h2><button class="toggle">Collapse</button></div><div class="content"><div class="subtopic"><h3>Part A — Objective</h3><div class="grid"><label class="item"><input type="checkbox"><span>Usage</span></label><label class="item"><input type="checkbox"><span>Vocabulary</span></label><label class="item"><input type="checkbox"><span>Grammar</span></label><label class="item"><input type="checkbox"><span>Comprehension and other language skills in MCQ format</span></label></div></div><div class="subtopic"><h3>Part B — Descriptive</h3><div class="grid"><label class="item"><input type="checkbox"><span>Precis writing</span></label><label class="item"><input type="checkbox"><span>Letters / Reports</span></label><label class="item"><input type="checkbox"><span>Essay</span></label><label class="item"><input type="checkbox"><span>Reading Comprehension</span></label></div></div></div></section><section class="section"><div class="section-head"><h2>Mains — Paper III: Arithmetic &amp; Test of Reasoning</h2><button class="toggle">Collapse</button></div><div class="content"><div class="subtopic"><h3>Arithmetic</h3><div class="grid"><label class="item"><input type="checkbox"><span>Number system</span></label><label class="item"><input type="checkbox"><span>Simple interest, compound interest</span></label><label class="item"><input type="checkbox"><span>Ratio &amp; proportion</span></label><label class="item"><input type="checkbox"><span>Average</span></label><label class="item"><input type="checkbox"><span>Percentage</span></label><label class="item"><input type="checkbox"><span>Profit &amp; loss</span></label><label class="item"><input type="checkbox"><span>Time &amp; work</span></label><label class="item"><input type="checkbox"><span>Work &amp; wages</span></label><label class="item"><input type="checkbox"><span>Time &amp; distance</span></label><label class="item"><input type="checkbox"><span>Clocks &amp; calendars</span></label><label class="item"><input type="checkbox"><span>Partnership</span></label><label class="item"><input type="checkbox"><span>Menstruation etc.</span></label></div></div><div class="subtopic"><h3>Test of Reasoning</h3><div class="grid"><label class="item"><input type="checkbox"><span>Verbal &amp; non-verbal type</span></label><label class="item"><input type="checkbox"><span>Analogies</span></label><label class="item"><input type="checkbox"><span>Similarities and differences</span></label><label class="item"><input type="checkbox"><span>Spatial visualization, spatial orientation</span></label><label class="item"><input type="checkbox"><span>Problem solving</span></label><label class="item"><input type="checkbox"><span>Analysis</span></label><label class="item"><input type="checkbox"><span>Judgment</span></label><label class="item"><input type="checkbox"><span>Decision making</span></label><label class="item"><input type="checkbox"><span>Visual memory</span></label></div></div></div></section><section class="section"><div class="section-head"><h2>Mains — Paper IV: General Studies</h2><button class="toggle">Collapse</button></div><div class="content"><div class="grid"><label class="item"><input type="checkbox"><span>General Science — contemporary developments in science and technology and their implications; everyday observation and experience; environmental protection issues</span></label><label class="item"><input type="checkbox"><span>Current events of national and international importance</span></label><label class="item"><input type="checkbox"><span>History of India — social, economic, cultural, and political aspects; Indian National Movement</span></label><label class="item"><input type="checkbox"><span>Principles of Geography and Geography of India</span></label><label class="item"><input type="checkbox"><span>Indian Polity and Economy — political system, rural development, planning, and economic reforms in India</span></label><label class="item"><input type="checkbox"><span>Personality test — Ethics, sensitivity to gender and weaker sections, social awareness, and Emotional Intelligence</span></label><label class="item"><input type="checkbox"><span>Telangana Movement and State Formation — Idea of Telangana (1948–1970), Mobilization phase (1971–1990), towards formation of Telangana State (1991–2014)</span></label></div></div></section><section class="section"><div class="section-head"><h2>Preparation Checklist</h2><button class="toggle">Collapse</button></div><div class="content"><div class="grid"><label class="item"><input type="checkbox"><span>Understand the exam pattern and syllabus</span></label><label class="item"><input type="checkbox"><span>Divide the syllabus into manageable sections — General Studies, Arithmetic &amp; Reasoning, and English</span></label><label class="item"><input type="checkbox"><span>Prioritize topics with higher weightage based on previous year’s question papers</span></label><label class="item"><input type="checkbox"><span>Revise Indian Constitution, Polity, History, Geography, and Telangana-specific GK regularly</span></label><label class="item"><input type="checkbox"><span>Keep up with current affairs from the last 6–8 months</span></label><label class="item"><input type="checkbox"><span>Practice monthly current affairs PDFs for quick revision</span></label><label class="item"><input type="checkbox"><span>Work on grammar, vocabulary, comprehension, and précis writing</span></label><label class="item"><input type="checkbox"><span>Practice essay writing and letter writing</span></label><label class="item"><input type="checkbox"><span>Read newspapers for GK and English improvement</span></label><label class="item"><input type="checkbox"><span>Solve mock tests and previous years’ Telangana Police SI question papers</span></label><label class="item"><input type="checkbox"><span>Analyze mistakes and work on weak areas</span></label><label class="item"><input type="checkbox"><span>Revise regularly instead of cramming before the exam</span></label><label class="item"><input type="checkbox"><span>Stay stress-free, sleep well, and keep a positive mindset</span></label></div></div></section>
+<p class="note"><b>Source note:</b> This page preserves the supplied syllabus terminology and topic structure. The source describes the selection process as Prelims, Mains, and Physical Measurement Test, and provides the detailed Prelims/Mains syllabus and preparation tips.</p>
+</div>
+<script>
+const boxes=[...document.querySelectorAll('input[type=checkbox]')];
+const key='tslprb-si-checklist-v2';
+const saved=JSON.parse(localStorage.getItem(key)||'null');
+
+// Restore every selection automatically when the page is reopened.
+if (Array.isArray(saved)) {
+  boxes.forEach((b,i)=>b.checked=saved[i] === true);
+}
+
+function saveSelections(){
+  localStorage.setItem(key,JSON.stringify(boxes.map(b=>b.checked)));
+}
+
+function update(){
+ const done=boxes.filter(b=>b.checked).length, total=boxes.length, pct=total?Math.round(done/total*100):0;
+ document.getElementById('count').textContent=done;
+ document.getElementById('total').textContent=total;
+ document.getElementById('pct').textContent=pct+'%';
+ document.getElementById('bar').style.width=pct+'%';
+ saveSelections();
+}
+
+boxes.forEach(b=>b.addEventListener('change',update));
+
+document.getElementById('all').onclick=()=>{
+  boxes.forEach(b=>b.checked=true);
+  update();
+};
+
+document.getElementById('clear').onclick=()=>{
+  if(confirm('Clear all saved checklist selections?')){
+    boxes.forEach(b=>b.checked=false);
+    update();
+  }
+};
+
+// Save immediately when the browser is about to close or navigate away.
+window.addEventListener('beforeunload',saveSelections);
+
+// Keep the checklist synchronized if another browser tab updates it.
+window.addEventListener('storage',(event)=>{
+  if(event.key===key && event.newValue){
+    const latest=JSON.parse(event.newValue);
+    boxes.forEach((b,i)=>b.checked=latest[i] === true);
+    update();
+  }
+});
+document.querySelectorAll('.toggle').forEach(btn=>btn.onclick=()=>{
+ const c=btn.closest('.section').querySelector('.content');
+ const hidden=c.style.display==='none'; c.style.display=hidden?'':'none'; btn.textContent=hidden?'Collapse':'Expand';
+});
+update();
+</script>
+</body>
+</html>
